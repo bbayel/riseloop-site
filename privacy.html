@@ -1,33 +1,50 @@
 <!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Riseloop — Privacy Policy</title><style>
+<title>Ottly — Privacy Policy</title><style>
   body{font-family:-apple-system,BlinkMacSystemFont,"SF Pro Rounded","Segoe UI",sans-serif;background:#FFF6E9;color:#3A3560;max-width:680px;margin:0 auto;padding:48px 24px 80px;line-height:1.7}
   h1{font-size:26px;font-weight:800;letter-spacing:-.4px}
   h2{font-size:17px;font-weight:800;margin-top:34px}
   p,li{font-size:15px;color:#55507A}
+  ul{margin:0;padding-left:22px}
+  li{margin:6px 0}
   a{color:#FF7A59;font-weight:600}
   .muted{font-size:12.5px;color:#8B86AC}
   nav{margin-bottom:34px;font-size:13px;font-weight:700}
   nav a{margin-right:16px}
-  .sun{font-size:34px}
-</style></head><body><nav><a href="index.html">Riseloop</a><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a><a href="support.html">Support</a></nav>
+</style></head><body><nav><a href="index.html">Ottly</a><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a><a href="support.html">Support</a></nav>
 <h1>Privacy Policy</h1>
-<p class="muted">Last updated: August 8, 2026</p>
-<p>Riseloop is built to be private by design: <b>no account, no cloud storage, no ads, and we never sell data.</b></p>
+<p class="muted">Last updated: October 9, 2026</p>
+<p>Ottly (called Riseloop before version 2.0) is built to be private by design: <b>no account, no cloud storage, no ads, and we never sell data.</b> Ottly is published by Benjamin Bayel (“we”). For any question or request about your data, email <a href="mailto:benjamin.bayel@gmail.com">benjamin.bayel@gmail.com</a>.</p>
+
 <h2>Screen Time data never leaves your device</h2>
-<p>Riseloop uses Apple's Screen Time frameworks (Family Controls, Managed Settings, Device Activity) to block the apps you choose. The list of blocked apps and all related activity is processed <b>entirely on your iPhone</b>. This data is never transmitted to us or to anyone else. We could not read it even if we wanted to — Apple's API keeps app identities opaque to developers.</p>
+<p>Ottly uses Apple’s Screen Time frameworks (Family Controls, Managed Settings, Device Activity) to lock the apps you choose and to show your weekly usage. The apps you pick, the locks and your usage are processed <b>entirely on your iPhone</b>, inside Apple’s system. Apple keeps app identities and usage figures hidden from developers, so we couldn’t read them even if we wanted to. None of it is sent to us or to anyone else.</p>
+
+<h2>Apple Health: read on your iPhone, never shared</h2>
+<p>Health access is optional. Ottly asks for it only if you turn on the <b>weekly move rule</b> (during setup or later in Settings), and it reads Apple Health <b>only while that rule is on</b>:</p>
+<ul>
+<li><b>What it reads:</b> whether you closed your Move ring on each of the last eight days, and the dates and durations of your workouts over the same days. Nothing else: no heart rate, no calories, no workout routes.</li>
+<li><b>What it keeps:</b> two dates, the last day you closed your ring or did a workout of 20 minutes or more, and when that workout happened. They stay on your iPhone so the lock screen can explain a lock.</li>
+<li><b>What it never does:</b> Ottly never writes to Apple Health and never syncs Health data to iCloud or anywhere else. <b>Nothing it reads from Apple Health, or works out from it, ever leaves your iPhone:</b> not to us, not to our analytics or purchase providers, not to anyone. Health data is never used for advertising or sold.</li>
+</ul>
+<p>Turn the move rule off (Settings → Weekly move rule) and Ottly stops reading Health. You can also remove its access at any time in the Health app → Sharing → Apps → Ottly.</p>
+
 <h2>What stays on your device</h2>
-<p>Your schedules ("loops"), streaks, morning stats, and settings are stored locally on your iPhone only. Deleting the app deletes them.</p>
+<p>Your focus sessions, earned minutes, focus blocks, streaks, stats and settings are stored on your iPhone only (and in your own device backups, if you use them). Notifications are scheduled on the device; there is no Ottly server. Deleting the app deletes all of it.</p>
+
 <h2>Third-party services we use</h2>
 <ul>
-<li><b>Adapty</b> (purchase infrastructure): processes your App Store receipt to manage your subscription. See <a href="https://adapty.io/privacy/">Adapty's privacy policy</a>.</li>
-<li><b>Amplitude</b> (product analytics, EU servers): anonymous usage events (e.g. "alarm dismissed", "streak day 12") and a random identifier — <b>only if you opt in</b> (see below). No advertising use, no sale, not linked to your identity. See <a href="https://amplitude.com/privacy">Amplitude's privacy policy</a>.</li>
+<li><b>Apple</b> handles every payment through the App Store. We never see your payment details.</li>
+<li><b>Adapty</b> (subscription analytics): records your App Store subscription transactions (plan, price, trial and renewal dates) with a random profile identifier, your device model, iOS version and IP address, so we can measure subscriptions and which paywall you saw. Ottly’s features never depend on it. See <a href="https://adapty.io/privacy/">Adapty’s privacy policy</a>.</li>
+<li><b>Amplitude</b> (product analytics): anonymous usage events, for example “focus session ended, 52 minutes”, “10 minutes spent”, “focus block saved”, “paywall shown”, or your streak length. Amplitude also receives your device model, iOS version, language, IP address (used to estimate your country) and Apple’s identifier for vendor, a random ID that is the same for all apps from the same developer on your iPhone and resets when you delete them all. Events contain no name, email, contacts, app names, Screen Time figures or Health data. They are not used for advertising or sold, and they aren’t linked to your identity. Amplitude stores them in the United States under its Data Processing Agreement (EU Standard Contractual Clauses). You can turn analytics off (see below). See <a href="https://amplitude.com/privacy">Amplitude’s privacy policy</a>.</li>
 </ul>
-<p>Payments themselves are handled by Apple — we never see your payment details.</p>
+
 <h2>Analytics consent &amp; App Tracking Transparency</h2>
-<p>On first open, Riseloop asks whether you want to share anonymous usage analytics. This is <b>opt-in</b>: if you choose "Continue without", nothing is ever sent to Amplitude. You can change your mind at any time in Settings → Anonymous analytics, and revoking takes effect immediately.</p>
-<p>Separately, iOS shows Apple's App Tracking Transparency prompt. If you allow it, the device advertising identifier (IDFA) is used solely by Adapty to attribute which App Store campaign brought you to Riseloop — nothing else. If you decline, everything in the app works exactly the same. Purchases, restore, and all app features never depend on either choice.</p>
+<p>On first open, Ottly shows a short notice explaining that it collects anonymous usage analytics. Nothing is sent before that notice is shown. Analytics is then on, and you can <b>turn it off at any time</b> in Settings → Anonymous analytics. Turning it off takes effect immediately.</p>
+<p>Separately, iOS shows Apple’s App Tracking Transparency prompt. If you allow it, the device advertising identifier (IDFA) is used solely by Adapty to attribute which App Store campaign brought you to Ottly. Nothing else changes, and Ottly itself never reads it. If you decline, everything in the app works exactly the same. Purchases, restoring and every feature work the same whichever you choose.</p>
+
 <h2>Your rights (GDPR)</h2>
-<p>Analytics runs only on your consent (Art. 6(1)(a) GDPR), which you can withdraw at any time in Settings. We hold no server-side personal data about you. Analytics identifiers are random and can be reset by reinstalling the app. For any privacy request or question, contact <a href="mailto:benjamin.bayel@gmail.com">benjamin.bayel@gmail.com</a>.</p>
+<p>We process anonymous analytics on the basis of our legitimate interest in improving Ottly (Art. 6(1)(f) GDPR), with an immediate opt-out in Settings. Subscription records are processed to provide the subscription you bought (Art. 6(1)(b)) and to measure it (Art. 6(1)(f)). Campaign attribution happens only with your App Tracking Transparency permission. Your Screen Time and Health data are processed only on your iPhone, and we never receive them.</p>
+<p>We hold no account or profile about you on our own servers. You can ask for access to, correction or deletion of your data, or object to its processing, by emailing <a href="mailto:benjamin.bayel@gmail.com">benjamin.bayel@gmail.com</a>. Because the identifiers above aren’t tied to your name or email, include the time and device you used so we can try to find them. Turning analytics off stops all collection. You also have the right to complain to your data protection authority.</p>
+
 <h2>Changes</h2>
-<p>We'll update this page if anything changes, and note the date above.</p>
+<p>We’ll update this page if anything changes and note the date above.</p>
 </body></html>
